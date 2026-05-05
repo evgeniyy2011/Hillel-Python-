@@ -1,6 +1,7 @@
 # ДЗ 4.3. Список із 3 елементів
 import random
 
+# Варіант №1
 lst = random.randrange(3, 11)
 storage = []
 storage_two = []
@@ -12,8 +13,7 @@ print(storage)
 print(storage_two)
 
 
-# Вариант #2
-
+# Варіант №2
 
 # lst = random.randrange(3, 11)
 # storage = []

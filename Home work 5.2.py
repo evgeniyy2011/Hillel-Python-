@@ -12,7 +12,7 @@ while True:
         print(numb_one * numb_two)
     elif deystvie == "/":
         if numb_two == 0:
-            print("Forbiden devided on 0 !!!")
+            print("Forbiden devided on 0 !")
         else:
             print(numb_one / numb_two)
     ask = input("Do you want again?")

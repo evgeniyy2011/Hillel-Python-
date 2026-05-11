@@ -7,3 +7,4 @@ while eval(new_numb) >= 9:
     new_numb = "*".join(str(eval(new_numb)))
 print(eval(new_numb))
 
+

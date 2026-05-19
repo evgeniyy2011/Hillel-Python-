@@ -1,8 +1,9 @@
+# ДЗ 8.3. Унікальне число
+
 def find_unique_value(some_list):
     for i in some_list:
         if some_list.count(i) == 1:
             return i
-
 
 # find_unique_value([1, 2, 1, 1])
 # assert find_unique_value([1, 2, 1, 1]) == 2, "Test1"

@@ -1,13 +1,13 @@
 def popular_words(text, words):
     text = (text.lower()).split()
-    d1ct = {}
+    d_ict = {}
     for q in range(len(text)):
         for key in words:
             if key in text:
-                d1ct[key] = text.count(key)
+                d_ict[key] = text.count(key)
             else:
-                d1ct[key] = 0
-    return d1ct
+                d_ict[key] = 0
+    return d_ict
 
 
 assert popular_words(

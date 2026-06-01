@@ -3,7 +3,7 @@ def generate_cube_numbers(end):
         cub = i**3
         if cub > end:
             break
-        yield cubH
+        yield cub
 
 
 from inspect import isgenerator

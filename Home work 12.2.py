@@ -2,7 +2,7 @@ def generate_cube_numbers(end):
     for i in range(2, end + 1):
         cub = i**3
         if cub > end:
-            break
+            return
         yield cub
 
 
